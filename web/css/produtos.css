@@ -1,0 +1,48 @@
+.interna_produtos {
+	background: url("../img/bg-sobre-pipoca.jpg") no-repeat center;
+	background-size: cover;
+}
+
+
+
+/* Produtos */
+
+.pipocas {
+	padding: 40px 0;
+}
+
+.produtos .subtitulo {
+	padding-bottom: 40px;
+}
+
+.pipocas_lista li {
+	background: #885570;  /* #885570*/
+	text-align: center;
+	margin-bottom: 20px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.pipocas_lista li h3 {
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+	color: #EDE7EE;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+.pipocas_icone img {
+	max-width:  100%;
+	max-height: 200%;
+	border-radius: 20px 20px 0px 0px ; 
+}
+
+/*.divisor {
+	margin-left: 25px;
+	margin-right: 10px;
+}
