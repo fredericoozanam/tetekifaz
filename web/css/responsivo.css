@@ -1,0 +1,260 @@
+/* Estilo para tablets */
+
+@media only screen and (min-width: 788px) and (max-width: 979px){
+
+	/* Qualidade Home*/
+
+	.qualidade:after {
+		right: 66px;
+	}
+
+	.qualidade_lista li {
+		padding: 0 10px;
+	}
+
+
+	/* Footer */
+	
+	.footer_redes ul li a {
+		border: 3px solid #EDE7EE;
+		display: block;
+		width: 40px;
+		height: 40px;
+		padding: 2px;
+	}
+
+	.footer_redes ul li a img {
+		display: block;
+		padding: 4px;
+	}
+
+	/* Produtos */
+	.produto_item h2 {
+		top: -150px;
+		margin-bottom: -56px;
+	}
+
+	.produto_icone {
+		padding: 41px 0;
+	}		
+
+	.produto_info p {
+		font-size: 14px;
+		line-height: 20px;
+		height: 122px;
+		padding: 20px 30px;
+	}
+
+	.produto_info ul li {
+		width: 181px;
+		height: 49px;
+	}
+
+	
+} /* Final do estilo para tablet */
+
+
+
+/* Estilo para smartphones */
+
+@media only screen and (max-width: 787px){
+
+	/* Header */
+	.header {
+		position: relative;
+		padding-bottom: 0px;
+	}
+
+	.header img {
+		margin: 0 auto 10px auto;
+	}
+
+	.header_menu {
+		text-align: center;
+	}
+
+	.header_menu ul li {
+		margin: 2px;
+	}
+
+	.header_menu ul li a {
+		font-size: 12px;
+		border: 2px solid #3D2340;
+		border-radius: 20px;
+		width: 136px;
+		display: block;
+		float: left; 
+	}
+
+	.header_menu ul li a:hover {
+		border-color: #885570;
+	}
+
+	.header_menu ul li a.menu_ativo {
+		border-color: #885570;
+	}
+
+	/* Introdução */
+
+	.subtitulo {
+		font-size: 20px;
+	}
+
+	.subtitulo-interno {
+		font-size: 18px;
+	}
+
+	.introducao h1 {
+		font-size: 36px;
+	}
+
+	.introducao {
+		margin-top: 0px;
+		padding-top: 150px;
+		background: url("../img/bg-intro-mobile.png") no-repeat center;
+		background-size: cover;
+	}
+
+	.quote-externo {
+		max-width: 320px;
+		margin: 0 auto;
+		margin-top: 50px;    			/*Espaçamento entre quote, titulo e botão */
+		margin-bottom: 50px;			/*Espaçamento entre quote, titulo e botão */
+		color:#fff;
+	}
+
+
+	/* Introducao Interna */
+	.introducao-interna {
+		margin-top: 0px;
+	}
+
+	.introducao-interna h1 {
+		font-size: 22px;
+	}
+
+
+
+	/* Call */
+	.call {
+		padding: 20px;
+	}
+
+	/* Qualidade Home*/
+	.qualidade:after {
+		display: none;
+	}
+
+	/* Footer */
+	.footer_redes ul li a {
+		border: 3px solid #EDE7EE;
+		display: block;
+		width: 40px;
+		height: 40px;
+		padding: 2px;
+	}
+
+	.footer_redes ul li a img {
+		display: block;
+		padding: 4px;
+	}
+
+	/* Sobre */
+	.missao_sobre p {
+		font-size: 14px;
+		line-height: 20px;
+		padding-right: 0px; 
+	}
+
+	.missao_sobre ul li {
+		font-size: 14px;
+		line-height: 25px;
+		}
+
+	/* Produtos */
+	
+	.produtos_lista li h3  {
+		margin-top: 0px;
+	}
+
+	.produtos-2_lista li h3  {
+		margin-top: 0px;
+		font-size: 16px;
+	}
+
+
+	.produtos_icone img {
+		max-width:  100%;
+		max-height: 100%;
+		border-radius: 20px 20px 0px 0px ; 
+	}
+	
+	.produto_item h2 {
+		top: -100px;
+		margin-bottom: -68px;
+	}
+
+	.produto_icone {
+		padding: 41px 0;
+	}		
+
+	.produto_info p {
+		font-size: 14px;
+		line-height: 20px;
+		height: auto;
+		padding: 20px 30px;
+	}
+
+	.produto_info ul li {
+		width: 149px;
+		height: 49px;
+		font-size: 14px;
+		line-height: 20px;
+		padding-top: 14px;
+	}
+
+	/* Pipocas */
+
+
+	.pipocas_lista li h3  {
+		margin-top: 0px;
+		font-size: 16px;
+	}
+
+	/* Produtos Personalizados */
+
+	
+	.produtos_perso_lista li h3 {
+		margin-top: 0px;
+		font-size: 16px;
+	}
+
+	.form {
+		padding-right: 0px
+	}
+
+	.form button {
+		margin-bottom: 30px;
+	}
+
+	.orcamento_dados ul {
+		padding-right: 0px;
+	}
+
+	/* Contato */
+	.contato_form {
+		padding-right: 0px;
+		margin-bottom: 40px;
+	}
+
+	.endereco_mapa {
+		margin-bottom: 60px;
+	}	
+
+	.orcamento_dados h3 {
+		margin-top: 30px;
+	}
+
+
+}/* Final do estilo para smartphone */
+

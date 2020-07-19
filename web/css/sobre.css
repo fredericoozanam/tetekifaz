@@ -1,6 +1,18 @@
 .interna_sobre {
-	background: url("../img/bg-sobre-pipoca.jpg") no-repeat center;
+	background: url("../img/bg-sobre-pipoca.jpg") no-repeat center; 
 	background-size: cover;
+}
+
+.interna_sobre h1 {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #3D2340;
+	text-shadow: 2px 2px #EDE7EE;
+}
+
+.interna_sobre p {
+	color: #3D2340;
+	font-size: 16px;
+	text-shadow: 1px 1px #EDE7EE;
 }
 
 .missao_sobre {
@@ -8,7 +20,7 @@
 }
 
 .missao_sobre p {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 25px;
 	margin-bottom: 1em;
 	padding-right: 40px;
@@ -16,7 +28,7 @@
 
 .missao_sobre ul li {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 30px;
 
 }

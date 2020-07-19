@@ -11,6 +11,7 @@ p {
 }
 img {
 	display: block;
+	max-width: 100%;
 	
 }
 
@@ -30,11 +31,26 @@ img {
 	font-weight: bold;
 }
 
+
 .btn2 {
 	border: 3px solid #3D2340; 
 	border-radius: 20px;
 	padding: 10px 30px;
-	color: #3D2340;
+	color: #EDE7EE;
+	background: #885570;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+
+.btn3 {
+	border: 3px solid #3D2340; 
+	border-radius: 20px;
+	padding: 10px 30px;
+	color: #EDE7EE;
+	background: #885570;
 	font-size: 14px;
 	line-height: 20px;
 	text-transform: uppercase;
@@ -48,10 +64,16 @@ img {
 	border-color: #EDE7EE;
 }
 
-.btn2.btn-preto:hover {
+.btn2.btn-muda:hover {
 	color:#EDE7EE;
-	background: #885570;
-	border-color: #3D2340;
+	background: #3D2340;
+	border-color: #885570;
+}
+
+.btn3.btn-muda:hover {
+	color:#EDE7EE;
+	background: #3D2340;
+	border-color: #885570;
 }
 
 
@@ -125,7 +147,7 @@ img {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 20px;
 	padding: 15px 0;
 	
@@ -153,6 +175,13 @@ img {
 	padding-top: 120px;
 }
 
+.introducao a {
+	font-family: 'Poiret One', cursive;
+}
+
+.introducao cite {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .introducao h1 {
 	font-family: 'Poiret One', cursive;
@@ -167,7 +196,7 @@ img {
 	max-width: 320px;
 	margin: 0 auto;
 	margin-top: 50px;    			/*Espaçamento entre quote, titulo e botão */
-	margin-bottom: 50px;			/*Espaçamento entre quote, titulo e botão */
+	margin-bottom: 60px;			/*Espaçamento entre quote, titulo e botão */
 	color:#fff;
 }
 
@@ -190,6 +219,37 @@ img {
 	font-size: 14px; 
 	letter-spacing: .1em;
 }
+
+/* Quote Externo 2 */
+
+.quote-externo2 {
+	max-width: 320px;
+	margin: 0 auto;
+	margin-top: 50px;    			/*Espaçamento entre quote, titulo e botão */
+	margin-bottom: 50px;			/*Espaçamento entre quote, titulo e botão */
+	color:#000;
+}
+
+.quote-externo2 p {
+	font-style: italic;
+}
+
+.quote-externo2 p:before, .quote-externo2 p:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 2px;
+	background: #000;
+	margin: 14px auto 10px auto;
+}
+
+.quote-externo2 cite {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px; 
+	letter-spacing: .1em;
+}
+
 
 /* Introducao Interna */
 
@@ -231,23 +291,33 @@ img {
 .produtos_lista li {
 	background: #885570;  /* #885570*/
 	text-align: center;
+	margin-bottom: 20px;
 	border-radius: 20px 20px 20px 20px;
 
 }
 
 .produtos_lista li h3 {
-	font-family: 'Poiret One', cursive;
+	/* font-family: 'Poiret One', cursive;
 	font-weight: bolder;
 	color: #EDE7EE;
 	font-size: 18px;
 	line-height: 25px;
 	text-transform: uppercase;
 	letter-spacing: .2em;
+	margin-top: 20px; */
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+	color: #EDE7EE;
+	font-size: 16px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
 	margin-top: 20px;
+	margin-bottom: 20px;
 	
 }
 
-.produtos_lista li h3:after {
+/* .produtos_lista li h3:after {
 	content: "";
 	display: block;
 	width: 60px;
@@ -260,7 +330,7 @@ img {
 	padding: 10px 20px 20px 20px;
 	color: #EDE7EE;
 	text-align: center;
-}
+} 
 
 /*.produtos_icone {
 	background: #CEE4E5;
@@ -283,14 +353,46 @@ img {
 	margin-bottom: 40px;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-size: 16px;
-	
+}
+
+.call a {
+	font-family: 'Poiret One', cursive;
 }
 
 /* Produtos-2 */
 
+
+.produtos-2_lista li {
+	background: #3D2340;  
+	text-align: center;
+	margin-bottom: 20px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.produtos-2_lista li h3 {
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+	color: #EDE7EE;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+.perso_icone img {
+	max-width:  100%;
+	max-height: 200%;
+	border-radius: 20px 20px 0px 0px ; 
+}
+
+
 .produtos-2 {
 	width: 100%;
-	background: #885570;
+	background: #EDE7EE;
 	padding: 40px 0;
 }
 
@@ -301,13 +403,13 @@ img {
 
 
 .produtos-2 .subtitulo {
-	color: #EDE7EE;
+	color: #000;
 	margin-bottom: 60px;
 }
 
 
 .produtos-2 .subtitulo:after {
-	background: #EDE7EE;
+	background: #000;
 }
 
 
@@ -317,7 +419,7 @@ img {
 
 
 .produtos-2 .call p{
-	color: #fff;
+	color: #000;
 }
 
 
@@ -328,7 +430,7 @@ img {
 .quebra {
 	width: 100%;
 	height: 220px;
-	background: url("../img/bg-footer.jpg") no-repeat center;
+	background: url("../img/filter.jpg") no-repeat center;
 	background-size: cover;
 	text-align: center;
 	padding-top: 5px;
@@ -451,7 +553,7 @@ img {
 }
 
 .js [data-slide-nav] button.active {
-	background: #fec63e;
+	background: #885570;
 }
 
 .js [data-anime] {

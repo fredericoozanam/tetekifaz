@@ -1,104 +1,183 @@
 .interna_contato {
-	background: url("../img/bg-contato.jpg") no-repeat center;
+	background: url("../img/bg-sobre-pipoca.jpg") no-repeat center;
 	background-size: cover;
 }
 
 
 
-/* Contato */
-
-.contato {
+/* Produtos */
+/*
+.pipocas {
 	padding: 40px 0;
 }
 
-.contato_form {
-	padding-right: 60px;
+.produtos .subtitulo {
+	padding-bottom: 40px;
 }
 
-.contato_form label {
-	display: block;
-	font-family: Georgia, "Times New Roman", serif;
+.pipocas_lista li {
+	background: #885570;  
+	text-align: center;
+	margin-bottom: 20px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.pipocas_lista li h3 {
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+	color: #EDE7EE;
 	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+.pipocas_icone img {
+	max-width:  100%;
+	max-height: 200%;
+	border-radius: 20px 20px 0px 0px ; 
+} */
+
+
+
+/* Orcamento */
+
+.orcamento {
+	background: #fff;
+	padding: 40px 0;
+}
+
+.orcamento h2 {
+	color: #000;
+}
+
+
+.orcamento h2:after {
+	background: #000;
+}
+
+.form {
+	padding-right: 60px
+}
+
+.form label {
+	display: block;
+	color:#000;
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
 	line-height: 25px;
 	margin-bottom: 4px;
 }
 
-.contato_form input {
+.form input {
 	display: block;
 	width: 100%;
-	border: 4px solid #fec63c;
+	border: 4px solid #885570;
 	background: none;
 	padding: 7px 10px;
 	margin-bottom: 10px;
 	outline: none; 
-	font-size: 14px;
-	font-family: Georgia, "Times New Roman", serif;
+	font-size: 16px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.contato_form textarea {
+.form textarea {
 	display: block;
 	width: 100%;
 	height: 120px;
-	border: 4px solid #fec63c;
+	border: 4px solid #885570;
 	background: none;
 	padding: 7px 10px;
 	margin-bottom: 20px;
 	outline: none; 
-	font-size: 14px;
+	font-size: 16px;
 	font-family: Georgia, "Times New Roman", serif;
 }
 
-.contato_form button {
+.form button {
 	padding: 7px 40px;
 	background: none;
 }
 
 .orcamento_dados {
-	color: #fff;
+	color: #000;
 }
 
-.contato_dados h3 {
-	font-size: 18px;
+.orcamento_dados h3 {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 16px;
 	line-height: 25px;
 	text-transform: uppercase;
-	color: #fec63c;
+	color: #000;
 	font-weight: bold;
+	margin-top: 5px;
 }
 
-.contato_dados span {
+.orcamento_dados span {
 	display: block;
-	font-size: 18px;
-	line-height: 30px;
-	font-family: Georgia, "Times New Roman", serif; 
+	font-size: 14px;
+	line-height: 25px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.contato_dados span:nth-of-type(even) {
+.orcamento_dados span:nth-of-type(2){
 	margin-bottom: 30px;
 }
 
-.contato_dados ul {
-	margin-top: 10px;
+.orcamento_dados ul {
+	padding-right: 60px;
+	text-align: left;
+	margin-left: -15px;
 }
 
-.contato_dados ul li {
+.orcamento_dados ul li {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 14px;
+	padding: 10px 15px;
 	display: inline-block;
-	margin-right: 10px;
+	margin-right: -20px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.contato_dados ul li a {
-	border: 3px solid #fec63e;
+
+.orcamento_dados p {
+	margin: 8px 8px;
+}
+
+.btn {
+ 	color: #000;
+	background: #885570;
+}
+
+.btn:hover {
+	color: #fff;
+	background: #885570;
+	border-color: blue;
+}
+
+
+
+.orcamento_dados ul li a {
+	border: 2px solid #3D2340;    
 	display: block;
 	padding: 10px;
+	background: #3D2340;
 }
 
-.contato_dados ul li a:hover {
-	border-color: #000;
+.orcamento_dados ul li a img {
+	max-width: 25px;
+	max-height: 25px;
+} 
+
+.orcamento_dados ul li a:hover {
+	border-color: #EDE7EE;
 }
 
-.contato_mapa {
-	margin-bottom: 60px;
-}
 
-.endereco_mapa {
-	margin-bottom: 60px;
+.endereco {
+	margin-bottom: 80px;
 }

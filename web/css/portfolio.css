@@ -3,6 +3,13 @@
 	background-size: cover;
 }
 
+
+.portfolio {
+	width: 100%;
+	background: #EDE7EE;
+	padding: 40px 0;
+}
+
 .quote_clientes {
 	padding: 60px 0;
 	max-width: 460px;

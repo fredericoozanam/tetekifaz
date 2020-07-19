@@ -2,44 +2,34 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
-		<title>Tetê Ki Faz - Contato 61 9 9657-7950</title>
-		
+		<title>Tetê Ki Faz - Contato</title>
+		<meta name="description" content="Faça sua encomenda de pipoca gourmet e veja mais sobre produtos personalizados.">
 
 		<meta property="og:type" content="website"/>
-		<meta property="og:title" content="Tetê Ki Faz - Contato 61 9 9657-7950"/>
+		<meta property="og:title" content="Tetê Ki Faz - Pipoca Gourmet e Personalização em Sublimação - Guará"/>
 		<meta property="og:description" content="Faça sua encomenda das saborosas Pipocas Gourmet e também veja o catálogo com personalização em sublimação."/>
 		<meta property="og:url" content="http://tetekifaz.com.br"/>
 		<meta property="og:image" content="http:tetekifaz.com.br/img/og-image.png"/>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="favicon.ico">
+
 		
 		<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="css/style-raw.css">
-		<script>document.documentElement.classList.add("js");</script>
-	</head>
-
-
-<!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta charset="utf-8">
-		<title>Bikcraft - Contato - 61 99999-9999</title>
-
-		<meta property="og:type" content="website"/>
-		<meta property="og:title" content="Bikcraft - Contato - 61 99999-9999"/>
-		<meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos, Passeio Retrô e Esporte."/>
-		<meta property="og:url" content="http://bfcodes.com/portfolio/bikcraft/contato.html"/>
-		<meta property="og:image" content="http://bfcodes.com/portfolio/bikcraft/img/og-image.png"/>
-
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" href="favicon.ico">
-
-		<link rel="stylesheet" href="css/style-raw.css">
-		<script>document.documentElement.classList.add("js");</script>
-	</head>
-	<body>
+		<link rel="stylesheet" href="css/contato.css">
+		<link rel="stylesheet" href="css/responsivo.css">
 		
+
+
+		<!-- <link rel="stylesheet" href="css/style.css"> -->
+		<script>document.documentElement.classList.add("js");</script>
+	</head>
+
+	<body>
 		<header class="header">
 			<div class="container">
 				<a href="index.html" class="grid-4">
@@ -47,8 +37,9 @@
 				</a>
 				<nav class="grid-12 header_menu">
 					<ul>
-						<li><a href="index.html">Home</a></li>
 						<li><a href="sobre.html">Sobre</a></li>
+						<li><a href="pipocas.html">Pipocas</a></li>
+						<li><a href="personalizados.html">Personalizados</a></li>
 						<li><a href="portfolio.html">Portfólio</a></li>
 						<li><a href="contato.html" class="menu_ativo">Contato</a></li>
 					</ul>
@@ -56,17 +47,21 @@
 			</div>
 		</header>
 
+
+
 		<section class="introducao-interna interna_contato">
 			<div class="container">
 				<h1 data-anime="400" class="fadeInDown">Contato</h1>
-				<p data-anime="800" class="fadeInDown">tire suas dúvidas com a gente</p>
+				<p>Tire suas dúvidas, faça um orçamento com a Tetê Ki Faz</p>
 			</div>
 		</section>
 
+		<!-- INÍCIO FORMULÁRIO -->
 		
-
-		<section class="contato container fadeInDown" data-anime="1200">
-			<form id="form_orcamento" method="POST" action="./enviar.php" class="contato_form grid-8 formphp">
+		
+		<section class="orcamento container">
+				<h2 class="subtitulo">Orçamento</h2>
+				<form id="form_orcamento" method="POST" action="./enviar.php" class="form grid-8 formphp">
 					<label for="nome">Nome</label>
 					<input type="text" id="nome" name="nome" required>
 					<label for="email">E-mail</label>
@@ -81,71 +76,74 @@
 
 					<label for="mensagem">Mensagem</label>
 					<textarea id="mensagem" name="mensagem" required></textarea>
-					<button id="enviar" name="enviar" type="submit" class="btn btn-preto">Enviar</button>
-			</form>
-				<div class="contato_dados grid-8">
-					<h3>Dados</h3>
-					<span>+ 55 61 3567-0000</span>
-					<span>orcamento@bikcraft.com</span>
-					<span>Rua ali perto - Brasília</span>
-					<span>Brasília - DF - Brasil</span>
+					<button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+				</form>
+				<div class="orcamento_dados grid-8">
+					<h3>Informações para Orçamento</h3>
+					<ul>
+						<li>- Pipoca Gourmet: Pacote com 50 Gramas</li>
+						<li>- Pipoca Gourmet: Encomendas a partir de 10 pacotes</li>
+						<li>- Pipoca Gourmet: Pacotes a partir de R$ 4,00</li>
+						<li>- Produtos Personalizados: A partir de R$ 25,00</li>
+						<li>- Encomendas com dois dias de antecedência</li>
+					</ul>
+					<h3>Contato</h3>
+					<span>61 9 9657-7950</span>
+					<span>contato@tetekifaz.com.br</span>
+					<span>SMIAPI - Chácara 22, Lote E, casa 3 - Guará II</span>
+					<span>Brasília/DF</span>
 					<h3>Redes Sociais</h3>
 						<ul>
-							<li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="Facebook Bikcraft"></a></li>
-							<li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="Instagram Bikcraft"></a></li>
-							<li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="Twitter Bikcraft"></a></li>
+							<li><a href="https://www.facebook.com/tetekifaz" target="_blank"><img src="img/redes-sociais/facebook.png" alt="Facebook Tetê Ki Faz"></a></li>
+							<li><a href="https://www.instagram.com/tetekifaz/" target="_blank"><img src="img/redes-sociais/instagram.png" alt="Instagram Tetê Ki Faz"></a></li>
 						</ul>
-				</div>
+					
+				</div>	
 		</section>
-
-
-		<!-- Mapa fixo imagem -->
-
-		<section class="container contato_mapa">
-			<a href="http://google.com" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
-		</section>
-	
-		<!-- Teste com google maps 
 		
-		<section class="container endereco_mapa">
-			<div class="grid-16">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.2404424692436!2d-47.88532168508569!3d-15.791270827085299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b3c2a6e99f3%3A0x82609d19eae687e1!2sConjunto%20Nacional%20Brasilia!5e0!3m2!1spt-BR!2sbr!4v1573045392949!5m2!1spt-BR!2sbr" width="940" height="280" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-			</div>
+		<section class="container endereco">
+			<a href="https://goo.gl/maps/kyWohAeoTEtbAJNG6" target="_blank" class="grid-16"><img src="img/endereco-tetekifaz.jpg" alt="Endereço Tetê Ki Faz"></a>
 		</section>
 
-		--> 
 
-		<div class="quebra">
-			<blockquote class="quote-externo container">
+
+
+	
+
+		
+
+		<!-- FIM FORMULÁRIO -->
+		
+		<section class="quebra">
+			<blockquote class="quote-externo2">
 					<p>“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana."</p>
 					<cite>WILLIAM MORRIS</cite>
 				</blockquote>
-		</div>
+		</section>
 
 		<footer>
 			<div class="footer">
 				<div class="container">
 
-					<div class="grid-8 footer_historia">
-						<h3>Nossa História</h3>
-						<p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.</p>
-					</div>
+					<!-- <div class="grid-8 footer_contato">
+						<h3>Fale Com a Tetê</h3>
+						<p>Diga para a Tetê o que você precisa. Entre em contato e faça um orçamento.</p>
+					</div> -->
 
-					<div class="grid-4 footer_contato">
+					<div class="grid-12 footer_contato">
 						<h3>Contato</h3>
 						<ul>
-							<li>- 61 3567-0000</li>
-							<li>- contato@bikcraft.com</li>
+							<li>- 61 9 9657-7950</li>
+							<li>- contato@tetekifaz.com.br</li>
 							<li>- Brasília - DF</li>
 						</ul>
 					</div>
 
 					<div class="grid-4 footer_redes">
-						<h3>Contato</h3>
+						<h3>Redes Sociais</h3>
 						<ul>
-							<li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="Facebook Bikcraft"></a></li>
-							<li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="Instagram Bikcraft"></a></li>
-							<li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="Twitter Bikcraft"></a></li>
+							<li><a href="https://www.facebook.com/tetekifaz" target="_blank"><img src="img/redes-sociais/facebook.png" alt="Facebook Tetê Ki Faz"></a></li>
+							<li><a href="https://www.instagram.com/tetekifaz/" target="_blank"><img src="img/redes-sociais/instagram.png" alt="Instagram Tetê Ki Faz"></a></li>
 						</ul>
 					</div>
 				</div>
@@ -153,14 +151,13 @@
 
 			<div class="copy">
 				<div class="container">
-				<p class="grid-16">Bikcraft 2019 - Alguns direitos reservados.</p>
+				<p class="grid-16">Desenvolvido por BFCodes - www.bfcodes.com</p>
 				</div>				
 			</div>
 		</footer>
 
 		<script src="./js/simple-anime.js"></script>
-		<script src="./js/simple-form.js"></script>
 		<script src="./js/script.js"></script>
-
+		
 	</body>
 </html>

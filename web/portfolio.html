@@ -15,13 +15,14 @@
 		<link rel="shortcut icon" href="favicon.ico">
 
 		
-		
+		<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet"> 
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="css/style-raw.css">
 		<link rel="stylesheet" href="css/portfolio.css">
-		<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="css/responsivo.css">
+		
 
 
 		<!-- <link rel="stylesheet" href="css/style.css"> -->
@@ -37,7 +38,8 @@
 				<nav class="grid-12 header_menu">
 					<ul>
 						<li><a href="sobre.html">Sobre</a></li>
-						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="pipocas.html">Pipocas</a></li>
+						<li><a href="personalizados.html">Personalizados</a></li>
 						<li><a href="portfolio.html" class="menu_ativo">Portfólio</a></li>
 						<li><a href="contato.html">Contato</a></li>
 					</ul>
@@ -52,15 +54,28 @@
 			</div>
 		</section>
 
-		<section class="container">
+		<section class="container" data-slide="quote">
 			<blockquote class="quote_clientes">
 				<p>A pipoca sabor leite ninho é uma delícia. Crocante e o sabor bem acentuado.</p>
 				<cite>Mariana Borges</cite>
 			</blockquote>
+			<blockquote class="quote_clientes">
+				<p>A pipoca sabor leite ninho é uma delícia. Crocante e o sabor bem acentuado.</p>
+				<cite>Guilherme Borges</cite>
+			</blockquote>
+			<blockquote class="quote_clientes">
+				<p>A pipoca sabor leite ninho é uma delícia. Crocante e o sabor bem acentuado.</p>
+				<cite>Frederico Ozanam</cite>
+			</blockquote>
 		</section>
 
-		<section class="produtos-2">
-			<div class="container">
+		<section class="portfolio">
+			<div class="container" data-slide="portfolio">
+				<ul class="produtos-2_lista">
+					<li class="grid-8"><img src="img/portfolio/caneca.jpg" alt="Bicicleta Retro"></li>
+					<li class="grid-8"><img src="img/portfolio/caneca.jpg" alt="Bicicleta Retro"></li>
+					<li class="grid-16"><img src="img/portfolio/caneca.jpg" alt="Bicicleta Esporte"></li>
+				</ul>
 				<ul class="produtos-2_lista">
 					<li class="grid-8"><img src="img/portfolio/caneca.jpg" alt="Bicicleta Retro"></li>
 					<li class="grid-8"><img src="img/portfolio/caneca.jpg" alt="Bicicleta Retro"></li>
@@ -70,7 +85,7 @@
 		</section>
 
 		<section class="quebra">
-			<blockquote class="quote-externo">
+			<blockquote class="quote-externo2">
 					<p>“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana."</p>
 					<cite>WILLIAM MORRIS</cite>
 				</blockquote>
@@ -113,9 +128,9 @@
 		</footer>
 
 
+		<script src="./js/simple-slide.js"></script>
 		<script src="./js/simple-anime.js"></script>
 		<script src="./js/script.js"></script>
-		
 		
 	</body>
 </html>
