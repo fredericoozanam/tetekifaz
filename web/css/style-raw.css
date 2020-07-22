@@ -23,12 +23,14 @@ img {
 	border: 3px solid #3D2340; 
 	border-radius: 20px;
 	padding: 10px 30px;
+	background: #885570;
 	color: #EDE7EE;
+	text-shadow: 1px 1px #000;
 	font-size: 14px;
 	line-height: 20px;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 
@@ -38,11 +40,12 @@ img {
 	padding: 10px 30px;
 	color: #EDE7EE;
 	background: #885570;
+	text-shadow: 1px 1px #000;
 	font-size: 14px;
 	line-height: 20px;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 .btn3 {
@@ -51,29 +54,39 @@ img {
 	padding: 10px 30px;
 	color: #EDE7EE;
 	background: #885570;
+	text-shadow: 1px 1px #000;
 	font-size: 14px;
 	line-height: 20px;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 .btn:hover {
 	color: #3D2340;
 	background: #885570;
 	border-color: #EDE7EE;
+	text-shadow: 1px 1px #000;
+	font-weight: bolder;
+	font-size: 16px;
 }
 
 .btn2.btn-muda:hover {
 	color:#EDE7EE;
 	background: #3D2340;
 	border-color: #885570;
+	text-shadow: 1px 1px #000;
+	font-weight: bolder;
+	font-size: 16px;
 }
 
 .btn3.btn-muda:hover {
 	color:#EDE7EE;
 	background: #3D2340;
 	border-color: #885570;
+	text-shadow: 1px 1px #000;
+	font-weight: bolder;
+	font-size: 16px;
 }
 
 
@@ -119,6 +132,31 @@ img {
 	margin: 8px 0;
 }
 
+.subtitulo-2 {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: -60px;
+	margin-bottom: 40px;
+}
+
+.subtitulo-3 {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: -40px;
+	margin-bottom: 40px;
+}
 
 /* Estilos Header*/
 
@@ -186,7 +224,7 @@ img {
 .introducao h1 {
 	font-family: 'Poiret One', cursive;
 	font-size: 52px;
-	color: #EDE7EE;     /* Cor do título #EDE7EE */
+	color: #EDE7EE;     
 	text-shadow: 2px 2px #000;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -297,45 +335,19 @@ img {
 }
 
 .produtos_lista li h3 {
-	/* font-family: 'Poiret One', cursive;
+	font-family: 'Poiret One', cursive;
 	font-weight: bolder;
 	color: #EDE7EE;
+	text-shadow: 2px 2px #000;
 	font-size: 18px;
 	line-height: 25px;
 	text-transform: uppercase;
 	letter-spacing: .2em;
-	margin-top: 20px; */
-	font-family: 'Poiret One', cursive;
-	font-weight: bolder;
-	color: #EDE7EE;
-	font-size: 16px;
-	line-height: 25px;
-	text-transform: uppercase;
-	letter-spacing: .1em;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	
 }
 
-/* .produtos_lista li h3:after {
-	content: "";
-	display: block;
-	width: 60px;
-	height: 2px;
-	background: #CEE4E5;
-	margin: 2px auto;
-} 
-
-.produtos_lista li p {
-	padding: 10px 20px 20px 20px;
-	color: #EDE7EE;
-	text-align: center;
-} 
-
-/*.produtos_icone {
-	background: #CEE4E5;
-	text-align: center;
-} */
 
 .produtos_icone img {
 	max-width:  100%;
@@ -343,7 +355,26 @@ img {
 	border-radius: 20px 20px 0px 0px ; 
 }
 
+.call-0 {
+	margin-top: -60px;
+	margin-bottom: 20px;
+	padding: 40px;
+	text-align: center;
+	clear: both;
+}
+
+.call-0 p {
+	margin-bottom: 40px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 16px;
+}
+
+.call-0 a {
+	font-family: 'Poiret One', cursive;
+}
+
 .call {
+	margin-top: -40px;
 	padding: 40px;
 	text-align: center;
 	clear: both;
@@ -373,6 +404,7 @@ img {
 	font-family: 'Poiret One', cursive;
 	font-weight: bolder;
 	color: #EDE7EE;
+	text-shadow: 1px 1px #000;
 	font-size: 18px;
 	line-height: 25px;
 	text-transform: uppercase;
@@ -423,7 +455,6 @@ img {
 }
 
 
-
 /* Quebra */
 
 
@@ -439,8 +470,6 @@ img {
 
 .quebra .quote-externo{
 	max-width: 300px;
-	
-	
 }
 
 
@@ -473,9 +502,6 @@ img {
 	margin: 6px 0 12px 0;
 }
 
-/* .footer_historia {
-	padding-right: 40px; 
-} */
 
 .footer_contato li {
 	font-size: 16px;
@@ -493,7 +519,7 @@ img {
 }
 
 .footer_redes ul li a {
-	border: 2px solid #EDE7EE;    /* #EDE7EE */
+	border: 2px solid #EDE7EE;    
 	display: block;
 	padding: 8px;
 }

@@ -2,16 +2,6 @@
 
 @media only screen and (min-width: 788px) and (max-width: 979px){
 
-	/* Qualidade Home*/
-
-	.qualidade:after {
-		right: 66px;
-	}
-
-	.qualidade_lista li {
-		padding: 0 10px;
-	}
-
 
 	/* Footer */
 	
@@ -78,20 +68,25 @@
 	}
 
 	.header_menu ul li a {
-		font-size: 12px;
+		font-size: 10px;
 		border: 2px solid #3D2340;
 		border-radius: 20px;
-		width: 136px;
-		display: block;
-		float: left; 
+		width: 143px;
+		display: inline-block;
+		padding: 5px 0 5px 0;
+		text-align: center;
 	}
 
 	.header_menu ul li a:hover {
-		border-color: #885570;
+		border-color: #3D2340;
+		background: #885570;
+		color: #EDE7EE;
 	}
 
 	.header_menu ul li a.menu_ativo {
-		border-color: #885570;
+		border-color: #000;
+		background: #885570;
+		color: #EDE7EE;
 	}
 
 	/* Introdução */
@@ -113,6 +108,21 @@
 		padding-top: 150px;
 		background: url("../img/bg-intro-mobile.png") no-repeat center;
 		background-size: cover;
+	}
+
+	.introducao .btn {
+		font-size: 14px;
+		font-weight: bolder;
+		text-shadow: 1px 1px #000;
+	}
+
+	.introducao .btn:hover {
+		color: #000;
+		background: #885570;
+		border-color: #EDE7EE;
+		font-weight: bolder;
+		text-shadow: 0px 0px #000;
+		font-size: 16px;
 	}
 
 	.quote-externo {
@@ -140,10 +150,10 @@
 		padding: 20px;
 	}
 
-	/* Qualidade Home*/
-	.qualidade:after {
-		display: none;
+	.call p {
+		margin-top: 40px;
 	}
+
 
 	/* Footer */
 	.footer_redes ul li a {
@@ -157,6 +167,10 @@
 	.footer_redes ul li a img {
 		display: block;
 		padding: 4px;
+	}
+
+	.footer_contato li {
+		color: #EDE7EE;
 	}
 
 	/* Sobre */
@@ -175,6 +189,8 @@
 	
 	.produtos_lista li h3  {
 		margin-top: 0px;
+		font-weight: bolder;
+		text-shadow: 1px 1px #000;
 	}
 
 	.produtos-2_lista li h3  {
@@ -219,6 +235,8 @@
 	.pipocas_lista li h3  {
 		margin-top: 0px;
 		font-size: 16px;
+		font-weight: bolder;
+		text-shadow: 1px 1px #000;
 	}
 
 	/* Produtos Personalizados */
@@ -227,6 +245,8 @@
 	.produtos_perso_lista li h3 {
 		margin-top: 0px;
 		font-size: 16px;
+		font-weight: bolder;
+		text-shadow: 1px 1px #000;
 	}
 
 	.form {
@@ -240,6 +260,20 @@
 	.orcamento_dados ul {
 		padding-right: 0px;
 	}
+
+	/* Portfólio */
+
+
+	.portfolio .produtos-2_lista-tipo2 {
+		text-align: center;
+	}
+	
+	.portfolio .produtos-2_lista-tipo2 li {
+		text-align: center;
+		padding: 0px 0px 0px 0px;
+	}
+
+
 
 	/* Contato */
 	.contato_form {

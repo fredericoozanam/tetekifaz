@@ -1,12 +1,22 @@
 .interna_produtos {
-	background: url("../img/bg-sobre-pipoca.jpg") no-repeat center;
+	background: url("../img/bg-sub.jpg") no-repeat center;
 	background-size: cover;
 }
 
 
+.interna_produtos h1 {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #EDE7EE;
+}
+
+.interna_produtos p {
+	color: #EDE7EE;
+	font-size: 16px;
+}
+
+
+
 /* Produtos Personalizados */
-
-
 
 
 .produtos_perso_lista li {
@@ -20,6 +30,7 @@
 	font-family: 'Poiret One', cursive;
 	font-weight: bolder;
 	color: #EDE7EE;
+	text-shadow: 1px 1px #000;
 	font-size: 18px;
 	line-height: 25px;
 	text-transform: uppercase;

@@ -8,14 +8,14 @@ require './PHPMailer/src/PHPMailer.php';
 require './PHPMailer/src/SMTP.php';
   
 // Mudar Aqui o e-mail
-$email_envio = 'frederico@bfcodes.com'; // E-mail do site (ex: contato@seusite.com)
-$email_pass = 'fogo1995'; // Senha do e-mail
+$email_envio = 'contato@tetekifaz.com.br'; // E-mail do site (ex: contato@seusite.com)
+$email_pass = '#teresa70218499'; // Senha do e-mail
 
-$site_name = 'bfcodes'; // Nome do Site
-$site_url = 'www.bfcodes.com/bikcraft'; // URL do Site
+$site_name = 'tetekifaz'; // Nome do Site
+$site_url = 'www.tetekifaz.com.br'; // URL do Site
 
-$host_smtp = 'mail.bfcodes.com'; // HOST SMTP Ex: smtp.domain.com.br
-$host_port = '587'; // Porta do Host, geralmente 465 ou 587
+$host_smtp = 'mail.tetekifaz.com.br'; // HOST SMTP Ex: smtp.domain.com.br
+$host_port = '465'; // Porta do Host, geralmente 465 ou 587
 
 
 // Não mudar abaixo:
@@ -49,7 +49,7 @@ try {
   $mail->Username = $email_envio;
   $mail->Password = $email_pass;
   $mail->Port = $host_port; 
-  $mail->SMTPSecure = 'tsl'; //Se não tiver SSL use assim, com SSL coloque no SMTPSecure
+  $mail->SMTPSecure = 'ssl'; //Se não tiver SSL use assim, com SSL coloque no SMTPSecure
   
   $mail->setFrom($email_envio, 'Formulário - '. $nome);
   $mail->addAddress($email_envio, $site_name);

@@ -1,7 +1,19 @@
 .interna_portfolio {
-	background: url("../img/bg-sobre-pipoca.jpg") no-repeat center;
+	background: url("../img/bg-sub.jpg") no-repeat center;
 	background-size: cover;
 }
+
+
+.interna_portfolio h1 {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #EDE7EE;
+}
+
+.interna_portfolio p {
+	color: #EDE7EE;
+	font-size: 16px;
+}
+
 
 
 .portfolio {
@@ -32,3 +44,22 @@
 	float: right;
 	font-style: normal;
 }
+
+.portfolio .produtos-2_lista-tipo1 {
+	text-align: center;
+}
+
+.portfolio .produtos-2_lista-tipo1 li {
+	text-align: center;
+	padding: 40px 0px 0px 0px;
+}
+
+.portfolio .produtos-2_lista-tipo2 {
+	text-align: center;
+}
+
+.portfolio .produtos-2_lista-tipo2 li {
+	text-align: center;
+	padding: 40px 0px 0px 0px;
+}
+
