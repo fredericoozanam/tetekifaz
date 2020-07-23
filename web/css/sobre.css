@@ -6,7 +6,6 @@
 .interna_sobre h1 {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color: #EDE7EE;
-	
 }
 
 .interna_sobre p {
@@ -14,8 +13,16 @@
 	font-size: 16px;
 }
 
+/* Sobre */
+
 .missao_sobre {
 	padding-top: 60px;
+}
+
+.missao_sobre p {
+	text-align: justify;
+	margin: 0;
+	text-indent: 3ch;
 }
 
 .missao_sobre p {
@@ -29,7 +36,6 @@
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-size: 16px;
 	line-height: 30px;
-
 }
 
 .foto-equipe {

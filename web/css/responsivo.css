@@ -2,6 +2,31 @@
 
 @media only screen and (min-width: 788px) and (max-width: 979px){
 
+	/* Header */
+
+	.header img {
+		margin: 0 auto 10px auto;
+		max-width: 90px;
+		max-height: 90px;
+	}
+
+	.header_menu ul li a {
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		color: #000;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		font-size: 15px;
+		line-height: 20px;
+		padding: 15px 0;
+	}
+
+	.header_menu ul li {
+		display: inline-block;
+		margin-left: 10px;
+		margin-top: 35px;
+	}
+	
 
 	/* Footer */
 	
@@ -57,6 +82,8 @@
 
 	.header img {
 		margin: 0 auto 10px auto;
+		max-width: 95px;
+		max-height: 95px;
 	}
 
 	.header_menu {
@@ -79,14 +106,14 @@
 
 	.header_menu ul li a:hover {
 		border-color: #3D2340;
-		background: #885570;
+		background: #c0a2b4;
 		color: #EDE7EE;
 	}
 
 	.header_menu ul li a.menu_ativo {
 		border-color: #000;
-		background: #885570;
-		color: #EDE7EE;
+		background: #c0a2b4;
+		color: #000;
 	}
 
 	/* Introdução */
@@ -117,13 +144,14 @@
 	}
 
 	.introducao .btn:hover {
-		color: #000;
-		background: #885570;
-		border-color: #EDE7EE;
+		color:#EDE7EE;
+		background: #3D2340;
+		border-color: #885570;
+		text-shadow: 1px 1px #000;
 		font-weight: bolder;
-		text-shadow: 0px 0px #000;
 		font-size: 16px;
 	}
+
 
 	.quote-externo {
 		max-width: 320px;
@@ -135,6 +163,7 @@
 
 
 	/* Introducao Interna */
+
 	.introducao-interna {
 		margin-top: 0px;
 	}
@@ -143,9 +172,8 @@
 		font-size: 22px;
 	}
 
-
-
 	/* Call */
+
 	.call {
 		padding: 20px;
 	}
@@ -154,8 +182,8 @@
 		margin-top: 40px;
 	}
 
-
 	/* Footer */
+
 	.footer_redes ul li a {
 		border: 3px solid #EDE7EE;
 		display: block;
@@ -174,6 +202,7 @@
 	}
 
 	/* Sobre */
+
 	.missao_sobre p {
 		font-size: 14px;
 		line-height: 20px;
@@ -231,7 +260,6 @@
 
 	/* Pipocas */
 
-
 	.pipocas_lista li h3  {
 		margin-top: 0px;
 		font-size: 16px;
@@ -239,8 +267,15 @@
 		text-shadow: 1px 1px #000;
 	}
 
+	.interna_pipocas h1 {
+		margin-top: -5px;
+	}
+
 	/* Produtos Personalizados */
 
+	.interna_produtos h1 {
+		margin-top: -8px;
+	}
 	
 	.produtos_perso_lista li h3 {
 		margin-top: 0px;
@@ -263,6 +298,9 @@
 
 	/* Portfólio */
 
+	.interna_portfolio h1 {
+		margin-top: 15px;
+	}
 
 	.portfolio .produtos-2_lista-tipo2 {
 		text-align: center;
@@ -273,9 +311,16 @@
 		padding: 0px 0px 0px 0px;
 	}
 
-
+	.quebra {
+		background: url("../img/filter-mobile.png") no-repeat center;
+	}
 
 	/* Contato */
+
+	.interna_contato h1 {
+		margin-top: 8px;
+	}
+
 	.contato_form {
 		padding-right: 0px;
 		margin-bottom: 40px;
@@ -289,6 +334,15 @@
 		margin-top: 30px;
 	}
 
+	.orcamento_dados ul li p {
+		margin: -5px 20px;
+		text-align: justify;
+	}
+
+	.orcamento_dados span {
+		margin: 0 0 -5px 1px;
+		text-align: justify;
+	}
 
 }/* Final do estilo para smartphone */
 

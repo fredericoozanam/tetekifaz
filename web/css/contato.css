@@ -13,46 +13,6 @@
 	font-size: 16px;
 }
 
-
-/* Produtos */
-/*
-.pipocas {
-	padding: 40px 0;
-}
-
-.produtos .subtitulo {
-	padding-bottom: 40px;
-}
-
-.pipocas_lista li {
-	background: #885570;  
-	text-align: center;
-	margin-bottom: 20px;
-	border-radius: 20px 20px 20px 20px;
-}
-
-.pipocas_lista li h3 {
-	font-family: 'Poiret One', cursive;
-	font-weight: bolder;
-	color: #EDE7EE;
-	font-size: 18px;
-	line-height: 25px;
-	text-transform: uppercase;
-	letter-spacing: .1em;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-
-
-.pipocas_icone img {
-	max-width:  100%;
-	max-height: 200%;
-	border-radius: 20px 20px 0px 0px ; 
-} */
-
-
-
 /* Orcamento */
 
 .orcamento {
@@ -63,7 +23,6 @@
 .orcamento h2 {
 	color: #000;
 }
-
 
 .orcamento h2:after {
 	background: #000;
@@ -119,7 +78,7 @@
 .orcamento_dados h3 {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-size: 16px;
-	line-height: 25px;
+	line-height: 50px;
 	text-transform: uppercase;
 	color: #000;
 	font-weight: bold;
@@ -141,6 +100,7 @@
 	padding-right: 60px;
 	text-align: left;
 	margin-left: -15px;
+	margin-bottom: 10px;
 }
 
 .orcamento_dados ul li {
@@ -150,16 +110,29 @@
 	display: inline-block;
 	margin-right: -20px;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+}
+
+.orcamento_dados ul li h1 {
+	color: #885570;
+	text-shadow: 1px 1px #EDE7EE;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
 }
 
 
 .orcamento_dados p {
-	margin: 8px 8px;
+	margin: -5px 10px;
+	text-align: justify;
 }
 
 .btn {
  	color: #000;
 	border-color: #885570;
+	text-shadow: 0px 0px;
 }
 
 .btn:hover {
@@ -167,8 +140,6 @@
 	background: #885570;
 	border-color: #000;
 }
-
-
 
 .orcamento_dados ul li a {
 	border: 2px solid #3D2340;    
@@ -185,7 +156,6 @@
 .orcamento_dados ul li a:hover {
 	border-color: #EDE7EE;
 }
-
 
 .endereco {
 	margin-bottom: 80px;
